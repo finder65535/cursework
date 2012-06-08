@@ -1,0 +1,70 @@
+﻿html {
+	min-height: 100%;
+}
+* html body {
+	/*height: 100%;*/
+}
+body {
+	min-height: 100%;
+	position: relative;
+}
+#header {
+	margin-left: 70px;
+	margin-right: 80px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	/*background: #f0f0f0;*/
+}
+#content_top {
+	margin-left: 70px;
+	margin-right: 80px;
+	text-align: center;
+	height: 100%;
+}
+UL#content_top {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0px;
+}
+UL#content_top > LI {
+	float: left;
+	font-weight: bold;
+	list-style: none;
+	width: 155px;
+	text-align: center;
+}
+#content_body {
+	margin-top: 40px;
+	margin-left: 70px;
+	margin-right: 80px;
+	text-align: center;
+	background: #f0f0f0;
+	padding-bottom: 400px;
+}
+#content_body > H2 {
+	text-align: center;
+	padding-top: 10px;
+	padding-top: -30px;
+}
+#content_body > HR {
+	margin-left: 70px;
+	margin-right: 80px;
+}
+#footer {
+	position: relative;
+	bottom: 0;
+	height: 40px;
+	margin-left: 70px;
+	margin-right: 80px;
+	margin-top: -40px;
+	text-align: center;
+	background: #f0f0f0;
+}
+#footer > HR {
+	margin-left: 70px;
+	margin-right: 80px;
+}
+A[target="_blank"] {
+	background: url(images/blank.png) 0 4px no-repeat;
+	padding-left: 25px;
+}
