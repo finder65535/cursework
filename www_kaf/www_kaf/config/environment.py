@@ -55,7 +55,7 @@ def load_environment(global_conf, app_conf):
     #config('pylons.app_globals'].jinja2_env = Environment(loader=ChoiceLoader(autoescape=True)
     #Jinja2's unable to request c's attributes without strict_c 
     # config['pylons.strict_c'] = True
-    config['pylons.app_globals'].jinja_env=Environment
-    config['pylons.strict_c'] = True
+    #config['pylons.app_globals'].jinja_env=Environment
+    #config['pylons.strict_c'] = True
 
     return config

@@ -22,8 +22,6 @@ def make_map(config):
 
     map.connect('/{controller}/{action}')
     map.connect('/{controller}/{action}/{id}')
-    map.connect('index', '/', controller='hello', action='models')
-    map.connect('/', controller='hello', action='index')
-    map.connect('hellopylons', controller='hello', action='hellopylons')
+    map.connect('/', controller='news', action='index')
     return map
 
