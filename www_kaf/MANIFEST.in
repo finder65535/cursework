@@ -1,0 +1,3 @@
+include www_kaf/config/deployment.ini_tmpl
+recursive-include www_kaf/public *
+recursive-include www_kaf/templates *
